@@ -1,4 +1,4 @@
-@import "materialize";
+// @import "materialize";
 
 body {
   font-size: 14px;
@@ -7,6 +7,7 @@ body {
 h1, h3 {
   color: dodgerblue;
   text-align: center;
+  font-family: helvetica;
 }
 
 h3 {
@@ -16,4 +17,12 @@ h3 {
 article {
   border: 1px solid red;
   padding: 1rem;
+}
+
+.video-embed {
+  display: block;
+}
+
+nav {
+  text-align: center;
 }
